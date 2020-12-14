@@ -8,9 +8,10 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Visits</title>
 </head>
 <body>
-
+<h1>Cześć!</h1>
+<h2>Twoja liczba odwiedzin na naszej stronie: <%= request.getAttribute("numberOfVisits")%></h2>
 </body>
 </html>
